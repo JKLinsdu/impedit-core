@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this code or the released artifacts, cite the paper below."
+title: "IMPEdit: Inter-Modal Projection Editing for Knowledge Poisoning of Multimodal RAG"
+abstract: >-
+  Code and released artifacts for IMPEdit, an attack that edits the inter-modal
+  projection of a multimodal retriever and injects poisoned images produced by a
+  render-verify-rewrite loop.
+type: software
+license: MIT
+version: 1.0.0
+date-released: 2026-10-24
+keywords:
+  - multimodal retrieval-augmented generation
+  - knowledge poisoning
+  - model editing
+  - multimodal large language models
+authors:
+  - name: "The IMPEdit Authors"
+# TODO(authors): replace the entity name with the real author list, add ORCIDs,
+# and add the repository URL and the artifact DOI.
+preferred-citation:
+  type: article
+  title: "IMPEdit: Inter-Modal Projection Editing for Knowledge Poisoning of Multimodal RAG"
+  authors:
+    - name: "The IMPEdit Authors"
+  journal: "IEEE Transactions on Dependable and Secure Computing"
+  year: 2026
+  # TODO(authors): volume, issue, pages, DOI. The paper is a submission; do not
+  # invent these fields.
